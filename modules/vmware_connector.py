@@ -3,6 +3,7 @@ from pyVim.connect import SmartConnect, Disconnect
 from pyVmomi import vim, vmodl
 import ssl
 from modules.envi import Envi
+import time
 
 
 class VMwareConnector:
